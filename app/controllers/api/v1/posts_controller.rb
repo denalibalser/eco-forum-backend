@@ -14,12 +14,17 @@ class Api::V1::PostsController < ApplicationController
         render json: @post
     end 
 
+    def update 
+        @post = Post.find(params[:id])
+        @post.update(post_params)
 
-
+        render json: @post  
+    end 
     
     private 
 
     def post_params
-        params.permit(:title, :content)
+        params.require(:post).permit(:id, :title, :content)
     end
-end
+
+end 
