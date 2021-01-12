@@ -1,5 +1,5 @@
 class Api::V1::CommentsController < ApplicationController
-    before_action :find_comment, only: [:show, :update, :destroy]
+    #before_action :find_comment, only: [:show, :update, :destroy]
 
     def index
         @comments = Comment.all
@@ -7,6 +7,7 @@ class Api::V1::CommentsController < ApplicationController
     end
 
     def show 
+        @comment = Comment.find(params[:id])
         render json: @comment
     end 
 
@@ -16,11 +17,13 @@ class Api::V1::CommentsController < ApplicationController
     end 
 
     def update 
+        @comment = Comment.find(params[:id])
         @comment.update(comment_params)
         render json: @comment  
     end 
 
     def destroy 
+        @comment = Comment.find(params[:id])
         @comment.destroy 
         render json: @comment  #not sure if i need this?
     end 
