@@ -12,12 +12,12 @@ class Api::V1::CommentsController < ApplicationController
     end 
 
     def create
-        @comment = Comment.create(comment_params)
+        @comment = Comment.create(comment_params) #need to figure out how to render comment form associated with each post 
         render json: @comment
     end 
 
     def update 
-        @comment = Comment.find(params[:id])
+        @comment = Comment.find(params[:id]) 
         @comment.update(comment_params)
         render json: @comment  
     end 
@@ -34,8 +34,8 @@ class Api::V1::CommentsController < ApplicationController
         params.require(:comment).permit(:id, :body, :post_id)
     end
 
-    def find_comment  
-        @comment = Comment.find(params[:id])
-    end 
+    # def find_comment  
+    #     @comment = Comment.find(params[:id])
+    # end 
 
 end
