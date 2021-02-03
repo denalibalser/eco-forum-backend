@@ -1,9 +1,6 @@
 class Api::V1::PostsController < ApplicationController
     #before_action :find_post, only: [:show, update]
 
-
-    #need to figure out why I can't delete posts from database!!!!!! 
-    #ActiveRecord::InvalidForeignKey (SQLite3::ConstraintException: FOREIGN KEY constraint failed) ????????
     
     def index
         @posts = Post.all

@@ -12,7 +12,7 @@ class Api::V1::CommentsController < ApplicationController
     end 
 
     def create
-        @comment = Comment.create(comment_params) #need to figure out how to render comment form associated with each post 
+        @comment = Comment.create(comment_params) 
         render json: @comment
     end 
 
