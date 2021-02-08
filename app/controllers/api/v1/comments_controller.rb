@@ -15,18 +15,6 @@ class Api::V1::CommentsController < ApplicationController
         render json: @comment
     end 
 
-    def update #not using 
-        @comment = Comment.find(params[:id]) 
-        @comment.update(comment_params)
-        render json: @comment  
-    end 
-
-    def destroy #not using 
-        @comment = Comment.find(params[:id])
-        @comment.destroy 
-        render json: @comment  #not sure if i need this?
-    end 
-    
     private 
 
     def comment_params
