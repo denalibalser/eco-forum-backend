@@ -1,4 +1,4 @@
-class CommentSerializer < ActiveModel::Serializer #added Api::V1:: 
+class CommentSerializer < ActiveModel::Serializer 
     attributes :id, :body, :post_id
 
     belongs_to :post
