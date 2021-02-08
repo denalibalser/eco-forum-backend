@@ -1,5 +1,4 @@
 class Api::V1::CommentsController < ApplicationController
-    #before_action :find_comment, only: [:show, :update, :destroy]
 
     def index
         @comments = Comment.all
@@ -16,13 +15,13 @@ class Api::V1::CommentsController < ApplicationController
         render json: @comment
     end 
 
-    def update 
+    def update #not using 
         @comment = Comment.find(params[:id]) 
         @comment.update(comment_params)
         render json: @comment  
     end 
 
-    def destroy 
+    def destroy #not using 
         @comment = Comment.find(params[:id])
         @comment.destroy 
         render json: @comment  #not sure if i need this?
@@ -33,9 +32,5 @@ class Api::V1::CommentsController < ApplicationController
     def comment_params
         params.require(:comment).permit(:id, :body, :post_id)
     end
-
-    # def find_comment  
-    #     @comment = Comment.find(params[:id])
-    # end 
 
 end
