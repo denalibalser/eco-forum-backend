@@ -21,6 +21,11 @@ class Api::V1::PostsController < ApplicationController
 
         render json: @post, status: 200  
     end 
+
+    def destroy 
+        @post = Post.find(params[:id])
+        @post.destroy
+    end
     
     private 
 
