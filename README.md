@@ -1,4 +1,4 @@
-## Eco-Forum-Backend
+## Eco Forum Backend
 
 A JavaScript frontend and Rails backend web application that allows user read, submit, and update environmental posts as well as provide feedback/reactions to the submitted posts. This is the backend repo, you can find my frontend repo here: https://github.com/denalibalser/eco-forum-frontend. 
 
