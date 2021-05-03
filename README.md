@@ -7,16 +7,12 @@ A JavaScript frontend and Rails backend web application that allows user read, s
 
 <img width="1437" alt="Screen Shot 2021-04-06 at 1 52 01 PM" src="https://user-images.githubusercontent.com/46694709/113770714-b7c5d080-96df-11eb-867c-468ffe38208d.png">
 
+## Blog 
+[Link to Blog Post](https://denalibalser.github.io/javascript_project)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-## Prerequisites
-
-What things you need to install the software and how to install them.
-
-Node
-Rails API
 
 ## Installation
 
