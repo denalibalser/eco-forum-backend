@@ -3,7 +3,7 @@
 
 <img width="1439" alt="Screen Shot 2021-04-06 at 10 06 26 AM" src="https://user-images.githubusercontent.com/46694709/113770572-81885100-96df-11eb-92ac-68bbf2bdaa8a.png">
 
-A JavaScript frontend and Rails backend web application that allows user read, submit, and update environmental posts as well as provide feedback/reactions to the submitted posts. This is the backend repo, you can find my frontend repo here: https://github.com/denalibalser/eco-forum-frontend. 
+A JavaScript frontend and Rails backend web application that allows user read, submit, and update environmental posts as well as provide feedback/reactions to the submitted posts. The idea behind this was that I wanted to create an online space for environmental education, idea sharing, and mitigative inspiration. This is the backend repo, you can find my frontend repo here: https://github.com/denalibalser/eco-forum-frontend. 
 
 <img width="1437" alt="Screen Shot 2021-04-06 at 1 52 01 PM" src="https://user-images.githubusercontent.com/46694709/113770714-b7c5d080-96df-11eb-867c-468ffe38208d.png">
 
