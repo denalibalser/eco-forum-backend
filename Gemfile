@@ -6,7 +6,6 @@ ruby '2.6.7'
 gem 'active_model_serializers'
 
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
-# gem 'sqlite3', '~> 1.4'
 gem 'pg'
 gem 'puma', '~> 4.1'
 gem 'bcrypt', '~> 3.1.7'
