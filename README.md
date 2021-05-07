@@ -31,6 +31,10 @@ To run application:
 
 After checking out the repo, run 'bundle install' to install dependencies. You can also run 'rails console' for an interactive prompt that will allow you to experiment.
 
+## Production 
+To access the deployed version of this web application follow this link: 
+* [Link to Eco-Forum App](https://denalibalser.github.io/eco-forum-frontend/)
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/denalibalser/eco-forum-backend. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the code of conduct.
